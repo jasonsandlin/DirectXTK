@@ -517,7 +517,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{f4776924-619c-42c7-88b2-82c947ccc9e7}</ProjectGuid>
     <Keyword>StaticLibrary</Keyword>
-    <ProjectName>DirectXTK</ProjectName>
+    <ProjectName>DirectXTK_UWP_2017</ProjectName>
     <RootNamespace>DirectXTK</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
