@@ -556,6 +556,10 @@
     <IntDir>Bin\Desktop_2017\$(Platform)\$(Configuration)\</IntDir>
     <TargetName>DirectXTK</TargetName>
   </PropertyGroup>
+  <PropertyGroup>
+    <XsapiPathsFile>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), xsapi.paths.props))\xsapi.paths.props</XsapiPathsFile>
+  </PropertyGroup>
+  <Import Project="$(XsapiPathsFile)" Condition="Exists($(XsapiPathsFile))" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
